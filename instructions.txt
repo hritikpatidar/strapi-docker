@@ -1,0 +1,62 @@
+Docker ---> Virtual Containers / Virtual Operating System
+
+Hyper-V = Virtualization / Enable BIOS
+
+
+Make Sure to enable th Hyper-V from BIOS Setting
+
+strapi docker
+
+GOOd and Powerfull latop
+
+i5 /i7 New Generations
+
+https://docs.docker.com/desktop/windows/install/
+
+DevOPS = Development and OPerations 
+
+
+Basic Fundaments
+
+	Docker Image --> Docker Container
+
+	Dockerhub.com --> Local System--> Docker Container
+
+
+docker-compose.yaml is the setting file for docker
+
+package.json is the setting file for node Project
+
+1. Download Docker Desktop
+
+Create a blank folder
+
+2.docker-compose.yaml
+
+version: '3'
+services:
+  strapi:
+    image: strapi/strapi
+    volumes:
+      - ./app:/srv/app
+    ports:
+      - '1337:1337'
+ 
+
+3.docker-compose pull 
+	pull --> Download
+	---> Download Image form ---> DockerHub.com
+
+
+Docker Image  ------> Docker Container
+
+4. docker-compose up
+
+
+- '1336:1337'
+
+RealOSPort:DockerPort
+
+RealOSPort will point to DockerPort
+
+1336--------->1337
